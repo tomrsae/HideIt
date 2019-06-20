@@ -23,7 +23,7 @@ To close the program, use `CTRL + SHIFT + |`.
 The program waits for the user to bind a handle to the application that will be manipulated.
 This is done with the `CTRL + |` keybind.
 
-Once a process is bound, you may use the other keybinds to manipulate the transparency or to toggle the visibility of the applciation.
+Once a process is bound, you may use the other keybinds to manipulate the transparency or to toggle the visibility of the application.
 
 If you bind a new process while the other one is manipulated, the manipulated one will reset, and you may manipulate the newly bound application.
 
