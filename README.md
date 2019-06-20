@@ -21,7 +21,11 @@ To close the program, use `CTRL + SHIFT + |`.
 
 ### How does it work?
 The program waits for the user to bind a handle to the application that will be manipulated.
-This is done with the `CTRL`
+This is done with the `CTRL + |` keybind.
+
+Once a process is bound, you may use the other keybinds to manipulate the transparency or to toggle the visibility of the applciation.
+
+If you bind a new process while the other one is manipulated, the manipulated one will reset, and you may manipulate the newly bound application.
 
 ## Use areas
 The software may be useful for cases where you need to for example read and type at the same time without access to an additional monitor.
