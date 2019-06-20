@@ -2,7 +2,9 @@
 A Win32 application that allows the user to change transparency of a window or hide it entirely from both the task bar and desktop.
 
 ## Downloading and Installing
-Simply download the HideIt.rar file above, extract it, and open the .exe file.
+Simply go to releases and download the .exe file from there.
+Source code may also be downloaded through releases.
+
 HideIt uses Windows and its protocols to function, no additional files are necessary.
 
 ## Using the program
