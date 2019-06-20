@@ -8,12 +8,12 @@ void ResetExtProcess();
 HideIt::ExtProcess extProcess = HideIt::ExtProcess();
 
 enum KeyID {
-	ONE		= 1,
-	TWO		= 2,
+	ONE	= 1,
+	TWO	= 2,
 	THREE	= 3,
 	FOUR	= 4,
 	FIVE	= 5,
-	SIX		= 6
+	SIX	= 6
 };
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
@@ -117,10 +117,10 @@ void OnKeyDown(WPARAM wParam)
 void RegisterHotkeys(HWND &programProcess)
 {
 	// Functionality Hotkeys
-	RegisterHotKey(programProcess, KeyID::ONE, MOD_CONTROL | MOD_NOREPEAT, 0xDC);				// CTRL + |
-	RegisterHotKey(programProcess, KeyID::TWO, MOD_NOREPEAT, 0xDC);								// |
-	RegisterHotKey(programProcess, KeyID::THREE, MOD_SHIFT | MOD_NOREPEAT, 0xDC);				// SHIFT + |
-	RegisterHotKey(programProcess, KeyID::FOUR, MOD_ALT | MOD_NOREPEAT, 0xDC);					// ALT + |
+	RegisterHotKey(programProcess, KeyID::ONE, MOD_CONTROL | MOD_NOREPEAT, 0xDC);			// CTRL + |
+	RegisterHotKey(programProcess, KeyID::TWO, MOD_NOREPEAT, 0xDC);					// |
+	RegisterHotKey(programProcess, KeyID::THREE, MOD_SHIFT | MOD_NOREPEAT, 0xDC);			// SHIFT + |
+	RegisterHotKey(programProcess, KeyID::FOUR, MOD_ALT | MOD_NOREPEAT, 0xDC);			// ALT + |
 	RegisterHotKey(programProcess, KeyID::FIVE, MOD_CONTROL | MOD_SHIFT | MOD_NOREPEAT, 0xDC);	// CTRL + SHIFT + |
 
 	// UI Hotkey
