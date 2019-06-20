@@ -19,6 +19,10 @@ To close the program, use `CTRL + SHIFT + |`.
 
 **NOTE:** The | key is NOT usable while this software is running.
 
+### How does it work?
+The program waits for the user to bind a handle to the application that will be manipulated.
+This is done with the `CTRL`
+
 ## Use areas
 The software may be useful for cases where you need to for example read and type at the same time without access to an additional monitor.
 You may then lower the transparency of your text editor to be able to read at the same time.
