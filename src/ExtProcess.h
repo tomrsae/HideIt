@@ -7,7 +7,7 @@ namespace HideIt
 	{
 	private:
 		HWND			m_hProcess;
-		unsigned int	m_opacityPercentage;
+		unsigned int		m_opacityPercentage;
 		bool			m_hidden;
 
 		void			setOpacity(const unsigned int &);
@@ -20,7 +20,7 @@ namespace HideIt
 		void			decreaseOpacity();
 		void			resetOpacity();
 		bool			isHidden() const;
-		unsigned int	getOpacity() const;
+		unsigned int		getOpacity() const;
 
 		~ExtProcess();
 	};
