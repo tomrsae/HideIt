@@ -21,7 +21,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine,
 	static TCHAR szAppName[] = TEXT("HideIt");
 
 	HWND		hwnd;
-	MSG			msg;
+	MSG		msg;
 	WNDCLASS	wndclass;
 
 	wndclass.lpfnWndProc = MainWndProc;
